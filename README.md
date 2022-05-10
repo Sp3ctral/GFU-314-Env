@@ -18,7 +18,7 @@ For MacBook users who are running on Apple Silicon, the solution is very simple 
 ![Importing the Image](assets/1.png) 
 
 5. Find the image that you unzipped and import it into UTM.
-6. Highlight the imported image in UTM then go to the image settings.
+6. Highlight the imported image in UTM then go to the image settings in the top right corner.
 
 
 ![Image Settings](assets/2.png) 
