@@ -46,5 +46,8 @@ For MacBook users who are running on Apple Silicon, the solution is very simple 
 - Type `314dev` for the password
 - Congrats, you are now SSH'd into the development environment!
 
+## Teach_Yourself Database
+The teach_yourself database is already loaded and ready to go for you! You do not need to load the teach_yourself database. To access it, just type `psql teach_yourself` after logging into the image and your tables will already be set up. If you alter the tables, you can rebuild them by typing `\i populate.sql` OR if you delete the tables or malform them by accident, you can type `\i create.sql` then `\i populate.sql` right after to rebuild and re-populate the teach_yourself database!
+
 ## Questions?
 Feel free to email me at mhozi18@georgefox.edu and I will be happy to help out with any issue you have OR reach out to your professor!
