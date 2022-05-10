@@ -33,13 +33,13 @@ For MacBook users who are running on Apple Silicon, the solution is very simple 
 
 ### Locally on UTM
 - Start the image then login using: 
-- Username: dev
-- Password: 314dev
+- Username: `dev`
+- Password: `314dev`
 
 ### SSH
 - Start the image then login using: 
-- Username: dev
-- Password: 314dev
+- Username: `dev`
+- Password: `314dev`
 - Paste `hostname -I | awk '{print $1}'` into the console after logging in
 - Copy the IP address that was returned
 - Open up your favorite terminal (if you aren't using [Hyper](https://hyper.is/) you're missing out!) then paste this command in: `ssh dev@REPLACE_WITH_YOUR_IP_ADDRESS_FROM_ABOVE`
